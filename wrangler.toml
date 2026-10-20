@@ -5,7 +5,7 @@ compatibility_date = "2026-10-20"
 [[d1_databases]]
 binding = "DB"
 database_name = "brand-value-limits"
-database_id = "REPLACE_WITH_D1_DATABASE_ID"
+database_id = "7dba3fa2-cb8d-4a99-8fc8-febc7ae4a365"
 
 [vars]
 GEMINI_MODEL = "gemini-2.5-flash"
