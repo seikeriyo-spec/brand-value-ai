@@ -1,0 +1,18 @@
+name = "brand-value-ai"
+main = "worker.js"
+compatibility_date = "2026-10-20"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "brand-value-limits"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+
+[vars]
+GEMINI_MODEL = "gemini-2.5-flash"
+DAILY_GLOBAL_LIMIT = "30"
+DAILY_IP_LIMIT = "10"
+# The public sitekey is safe to set as a plain variable.
+TURNSTILE_SITE_KEY = "REPLACE_WITH_TURNSTILE_SITE_KEY"
+
+[triggers]
+crons = ["0 2 * * *"]
